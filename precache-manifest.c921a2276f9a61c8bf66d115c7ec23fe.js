@@ -8,7 +8,7 @@ self.__precacheManifest = [
     "url": "/web_tnk/static/js/runtime~main.4127f75a.js"
   },
   {
-    "revision": "daeb0d6d8b65d422d609",
+    "revision": "ee5dba9d7e238e2d36d5",
     "url": "/web_tnk/static/js/main.9f09a6e7.chunk.js"
   },
   {
@@ -16,11 +16,11 @@ self.__precacheManifest = [
     "url": "/web_tnk/static/js/2.a7af2a1d.chunk.js"
   },
   {
-    "revision": "daeb0d6d8b65d422d609",
-    "url": "/web_tnk/static/css/main.c9c36a79.chunk.css"
+    "revision": "ee5dba9d7e238e2d36d5",
+    "url": "/web_tnk/static/css/main.eb5ef2f9.chunk.css"
   },
   {
-    "revision": "f8598d725988475527cc36ad2359ab32",
+    "revision": "3ebe42ca82936ab935c5cc1149d56fc0",
     "url": "/web_tnk/index.html"
   }
 ];

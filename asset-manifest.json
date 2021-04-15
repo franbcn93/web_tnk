@@ -1,5 +1,5 @@
 {
-  "main.css": "/web_tnk/static/css/main.c9c36a79.chunk.css",
+  "main.css": "/web_tnk/static/css/main.eb5ef2f9.chunk.css",
   "main.js": "/web_tnk/static/js/main.9f09a6e7.chunk.js",
   "main.js.map": "/web_tnk/static/js/main.9f09a6e7.chunk.js.map",
   "runtime~main.js": "/web_tnk/static/js/runtime~main.4127f75a.js",
@@ -7,8 +7,8 @@
   "static/js/2.a7af2a1d.chunk.js": "/web_tnk/static/js/2.a7af2a1d.chunk.js",
   "static/js/2.a7af2a1d.chunk.js.map": "/web_tnk/static/js/2.a7af2a1d.chunk.js.map",
   "index.html": "/web_tnk/index.html",
-  "precache-manifest.7a75141fb880abdae62cdf63178b7b41.js": "/web_tnk/precache-manifest.7a75141fb880abdae62cdf63178b7b41.js",
+  "precache-manifest.c921a2276f9a61c8bf66d115c7ec23fe.js": "/web_tnk/precache-manifest.c921a2276f9a61c8bf66d115c7ec23fe.js",
   "service-worker.js": "/web_tnk/service-worker.js",
-  "static/css/main.c9c36a79.chunk.css.map": "/web_tnk/static/css/main.c9c36a79.chunk.css.map",
+  "static/css/main.eb5ef2f9.chunk.css.map": "/web_tnk/static/css/main.eb5ef2f9.chunk.css.map",
   "static/media/logo_copy.png": "/web_tnk/static/media/logo_copy.14c5f31b.png"
 }
