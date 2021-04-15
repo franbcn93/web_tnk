@@ -1,14 +1,14 @@
 {
-  "main.css": "/web_tnk/static/css/main.eb5ef2f9.chunk.css",
-  "main.js": "/web_tnk/static/js/main.9f09a6e7.chunk.js",
-  "main.js.map": "/web_tnk/static/js/main.9f09a6e7.chunk.js.map",
+  "main.css": "/web_tnk/static/css/main.d8e35316.chunk.css",
+  "main.js": "/web_tnk/static/js/main.f8557054.chunk.js",
+  "main.js.map": "/web_tnk/static/js/main.f8557054.chunk.js.map",
   "runtime~main.js": "/web_tnk/static/js/runtime~main.4127f75a.js",
   "runtime~main.js.map": "/web_tnk/static/js/runtime~main.4127f75a.js.map",
   "static/js/2.a7af2a1d.chunk.js": "/web_tnk/static/js/2.a7af2a1d.chunk.js",
   "static/js/2.a7af2a1d.chunk.js.map": "/web_tnk/static/js/2.a7af2a1d.chunk.js.map",
   "index.html": "/web_tnk/index.html",
-  "precache-manifest.c921a2276f9a61c8bf66d115c7ec23fe.js": "/web_tnk/precache-manifest.c921a2276f9a61c8bf66d115c7ec23fe.js",
+  "precache-manifest.d1571be3c81949dee67468f17a872cc2.js": "/web_tnk/precache-manifest.d1571be3c81949dee67468f17a872cc2.js",
   "service-worker.js": "/web_tnk/service-worker.js",
-  "static/css/main.eb5ef2f9.chunk.css.map": "/web_tnk/static/css/main.eb5ef2f9.chunk.css.map",
+  "static/css/main.d8e35316.chunk.css.map": "/web_tnk/static/css/main.d8e35316.chunk.css.map",
   "static/media/logo_copy.png": "/web_tnk/static/media/logo_copy.14c5f31b.png"
 }
