@@ -43,13 +43,29 @@ export default function Header() {
         unmountOnExit
       >
         <nav className="Nav">
-          <a href={("/", "/web_tnk")}>Inicio</a>
-          {/* <a href={("/", "/web_tnk", "https://franbcn93.github.io/web_tnk/")}>
+          {/* <a href={("/", "/web_tnk")}>Inicio</a> */}
+          <a href={("/", "/web_tnk", "https://franbcn93.github.io/web_tnk/")}>
             Inicio
-          </a> */}
-          <a href="/gestion">Tecnología e innovación</a>
-          <a href="/hospitales">Hospitales</a>
-          <a href={"/contacto"}>Contacto</a>
+          </a>
+          <a
+            href={("/gestion", "https://franbcn93.github.io/web_tnk_gestion/")}
+          >
+            Tecnología e innovación
+          </a>
+          <a
+            href={
+              ("/hospitales", "https://franbcn93.github.io/web_tnk_hospitales/")
+            }
+          >
+            Hospitales
+          </a>
+          <a
+            href={
+              ("/contacto", "https://franbcn93.github.io/web_tnk_contacto/")
+            }
+          >
+            Contacto
+          </a>
           {/* <button>Logout</button> */}
         </nav>
       </CSSTransition>
