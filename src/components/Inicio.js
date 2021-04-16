@@ -14,7 +14,7 @@ export default class Inicio extends Component {
     return (
       <Fragment>
         <Header />
-        <section id="main-content contentSection">
+        <section id="main-content">
           <article>
             <header>
               <h1 className="marginTop">
