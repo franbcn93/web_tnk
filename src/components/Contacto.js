@@ -17,39 +17,28 @@ export default class Contacto extends Component {
               src="http://afinkados.es/attachments/Image/contacto-1-1024x336.jpg?template=generic"
               alt="imagenInicio"
             />
-            <div className="container contactIcon">
-              <div className="row row-cols-4">
-                <div className="col-1 paddingIcon">
-                  <i className="fas fa-home fa-2x" align="center"></i>
-                </div>
-                <div className="col-7 paddingIcon">
-                  C/ Puig dels Tudons, 6, 08210 Barberà del Vallès - Barcelona
-                </div>
-                <div className="col-1 paddingIcon">
-                  <i className="fas fa-phone-volume fa-2x"></i>
-                </div>
-                <div className="col-3 paddingIcon">(+34) 933 638 787</div>
+            <div class="row icons">
+              <div class="col-sm-4">
+                <i className="fas fa-phone-volume fa-2x"></i> (+34) 933 638 787
+              </div>
+              <div class="col-sm-8 icons_2">
+                <i className="fas fa-home fa-2x" align="center"></i> C/ Puig
+                dels Tudons, 6, 08210 Barberà del Vallès - Barcelona
               </div>
             </div>
-            <div className="container contactIcon">
-              <div className="row row-cols-4">
-                <div className="col-1 paddingIcon">
-                  <i className="fas fa-tools fa-2x"></i>
-                </div>
-                <div className="col-7 paddingIcon">
-                  <a href="mailto:sat@tanaki.es">
-                    sat@tanaki.es (Servicio Asistencia Técnica)
-                  </a>
-                </div>
-                <div className="col-1 paddingIcon">
-                  <i className="fas fa-at fa-2x"></i>
-                </div>
-                <div className="col-3 paddingIcon">
-                  <a href="mailto:tanaki@tanaki.es">tanaki@tanaki.es</a>
-                </div>
+            <div class="row icons">
+              <div class="col-sm-4">
+                <i className="fas fa-at fa-2x"></i>{" "}
+                <a href="mailto:tanaki@tanaki.es">tanaki@tanaki.es</a>
+              </div>
+              <div class="col-sm-8 icons_2">
+                <i className="fas fa-tools fa-2x"></i>{" "}
+                <a href="mailto:sat@tanaki.es">
+                  sat@tanaki.es (Servicio Asistencia Técnica)
+                </a>
               </div>
             </div>
-            <br />
+
             <br />
             <div className="container">
               <h5 className=" contactUs">

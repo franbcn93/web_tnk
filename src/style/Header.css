@@ -20,12 +20,15 @@ body {
   /* Cosmetics */
   background-color: #282c34;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  right: 0;
+  z-index: 2;
 }
 
 .Logo {
   grid-area: logo;
   height: 70px;
   width: 203px;
+  margin-left: 15px;
 }
 
 .Nav {
@@ -34,6 +37,8 @@ body {
   grid-template-columns: repeat(4, auto);
   align-items: center;
   justify-items: center;
+  padding-right: 20px;
+  z-index: 2;
 }
 .Nav a {
   color: #fff;
@@ -94,6 +99,7 @@ body {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
+    padding: 4px 0 14px;
   }
   .Burger {
     display: inline;
@@ -155,8 +161,9 @@ nav ul li a:hover {
   background: white;
   width: 90%;
   max-width: 1000px;
-  margin: 20px auto;
+  margin: -20px auto;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
 }
 
 #main-content header,
@@ -169,7 +176,7 @@ nav ul li a:hover {
   color: white;
   text-align: center;
   padding: 20px;
-  margin-top: 40px;
+  margin-top: 37px;
   margin-bottom: 24px;
 }
 #main-footer p {
@@ -182,7 +189,7 @@ nav ul li a:hover {
 .marginTop {
   /* margin-top: 100px; */
   text-align: center;
-  margin-bottom: -15px;
+  /* margin-bottom: -15px; */
 }
 
 .imgLogo {
@@ -217,4 +224,40 @@ article {
 .menuOpen {
   max-width: 17%;
   margin-right: -237px;
+}
+
+@media (min-width: 700px) and (max-width: 850px) {
+  .Logo {
+    width: 155px;
+  }
+  .Nav a {
+    font-size: 16px;
+  }
+  .Nav {
+    padding-right: 52px;
+  }
+}
+@media (min-width: 460px) and (max-width: 490px) {
+  .menuOpen {
+    max-width: 23%;
+    margin-right: -187px;
+  }
+}
+@media (min-width: 430px) and (max-width: 459px) {
+  .menuOpen {
+    margin-right: -175px;
+  }
+}
+
+@media (min-width: 370px) and (max-width: 429px) {
+  .menuOpen {
+    max-width: 32%;
+    margin-right: -127px;
+  }
+}
+@media (min-width: 320px) and (max-width: 369px) {
+  .menuOpen {
+    max-width: 40%;
+    margin-right: -99px;
+  }
 }

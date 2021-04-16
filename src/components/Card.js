@@ -13,8 +13,8 @@ export default class Card extends Component {
   render() {
     const listado = this.state.hospitales.map((todo, i) => {
       return (
-        <div className="col-md-4" key={i}>
-          <div className="card mt-4">
+        <div className="col-md-4 " key={i}>
+          <div className="card mt-4 cardBorder">
             <div className="card-title text-center">
               <h3 className="MarginTitle">{todo.nombre}</h3>
               <span className="badge bg-secondary">{todo.comarca}</span>
@@ -38,8 +38,8 @@ export default class Card extends Component {
         </div> */}
 
         <div className="container">
-          <div className="col-md-12">
-            <div className="row">{listado}</div>
+          <div className="col-md-12 listDiv">
+            <div className="row listHosp">{listado}</div>
           </div>
         </div>
 

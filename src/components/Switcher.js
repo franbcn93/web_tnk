@@ -16,7 +16,6 @@ export default class Switcher extends Component {
           {/* <Route path="https://franbcn93.github.io/react_web/" exact> */}
           {/* <Route path={["/", "/react_web"]} exact> */}
           <Route path={["/", "/web_tnk"]} exact>
-            {/* <Route path="/react_web" exact> */}
             <Inicio />
           </Route>
 

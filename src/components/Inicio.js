@@ -14,7 +14,7 @@ export default class Inicio extends Component {
     return (
       <Fragment>
         <Header />
-        <section id="main-content">
+        <section id="main-content contentSection">
           <article>
             <header>
               <h1 className="marginTop">
@@ -27,7 +27,7 @@ export default class Inicio extends Component {
               alt="imagenInicio"
             />
             <Accordion
-              className="accordion"
+              className="accordion accordionEnd"
               selectedIndex={this.state.selectedIndex}
               onChange={(index, expanded, selectedIndex) =>
                 console.log(
@@ -37,7 +37,7 @@ export default class Inicio extends Component {
                 )
               }
             >
-              <div data-header="Trayectoria" className="accordion-item">
+              <div data-header="Trayectoria" className="accordion-item ">
                 <p>
                   Han pasado más de trenta años desde que Tanaki inició su
                   actividad en el ámbito de la comunicación sanitaria. Más de
@@ -106,8 +106,8 @@ export default class Inicio extends Component {
                 />
               </div>
               <div
-                data-header="Centro de Control"
-                className="accordion-item accordionEnd"
+                data-header="Centro de Controll"
+                className="accordionEnd accordion-item "
               >
                 <p>
                   Gestelnet es un sistema autónomo de gestión de todas las

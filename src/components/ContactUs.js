@@ -32,7 +32,7 @@ export default function ContactUs() {
       <form className="contact-form" onSubmit={sendEmail}>
         <div className="row">
           <div className="col-1"></div>
-          <div className="col-4">
+          <div className="col-sm-4 ">
             <input
               type="text"
               className="form-control"
@@ -41,7 +41,7 @@ export default function ContactUs() {
             />
           </div>
           <div className="col-1"></div>
-          <div className="col-5">
+          <div className="col-sm-5 sepText">
             <input
               type="email"
               className="form-control "
@@ -52,7 +52,7 @@ export default function ContactUs() {
 
           <div className="row marginText">
             <div className="col-1"></div>
-            <div className="col-8">
+            <div className="col-sm-8">
               <textarea
                 className="form-control"
                 id="exampleFormControlTextarea1"
@@ -62,7 +62,7 @@ export default function ContactUs() {
               ></textarea>
             </div>
 
-            <div className="col-2">
+            <div className="col-sm-2 btnAlig">
               <input
                 type="submit"
                 value="Enviar mensaje"

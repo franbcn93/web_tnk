@@ -43,7 +43,10 @@ export default function Header() {
         unmountOnExit
       >
         <nav className="Nav">
-          <a href={("/", "/react_web")}>Inicio</a>
+          <a href={("/", "/web_tnk")}>Inicio</a>
+          {/* <a href={("/", "/web_tnk", "https://franbcn93.github.io/web_tnk/")}>
+            Inicio
+          </a> */}
           <a href="/gestion">Tecnología e innovación</a>
           <a href="/hospitales">Hospitales</a>
           <a href={"/contacto"}>Contacto</a>

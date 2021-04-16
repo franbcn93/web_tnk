@@ -67,3 +67,19 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+/* @media screen and (max-width: 768px) {
+  iframe {
+    max-width: 500px;
+  }
+} */
+@media screen and (max-width: 767px) and (min-width: 460px) {
+  iframe {
+    max-width: 350px;
+  }
+}
+@media screen and (max-width: 459px) and (min-width: 360px) {
+  iframe {
+    max-width: 253px;
+  }
+}

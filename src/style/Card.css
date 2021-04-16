@@ -19,3 +19,11 @@
 .MarginTitle {
   margin-top: 15px;
 }
+@media (max-width: 700px) {
+  .listDiv {
+    margin-top: -50px;
+  }
+}
+.cardBorder {
+  border-radius: 10px;
+}

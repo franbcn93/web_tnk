@@ -32,3 +32,15 @@
   text-align: center;
   margin: 20px 144px 20px 20px;
 }
+.icons {
+  margin-top: 20px;
+}
+@media (min-width: 350px) and (max-width: 575px) {
+  .icons_2,
+  .sepText {
+    margin-top: 20px;
+  }
+  .btnAlig {
+    text-align: center;
+  }
+}
